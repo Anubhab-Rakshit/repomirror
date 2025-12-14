@@ -19,14 +19,13 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
-
   const navItems = [
     { label: "Home", href: "/", id: "home" },
-    { label: "Features", href: "/features", id: "features" },
-    { label: "Pricing", href: "#pricing", id: "pricing" },
-    { label: "Docs", href: "/docs", id: "docs" },
-  ]
+    { label: "Compare", href: "/compare", id: "compare" },
+     { label: "Leaderboard", href: "/leaderboard", id: "leaderboard" },
+      { label: "PDF-Export", href: "/pdf-export", id: "pdf-export" },
 
+  ]
   const handleMouseMove = (e: React.MouseEvent) => {
     const rect = e.currentTarget.getBoundingClientRect()
     setMousePos({ x: e.clientX - rect.left, y: e.clientY - rect.top })
