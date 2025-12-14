@@ -13,25 +13,12 @@ export const metadata: Metadata = {
   title: "RepoMirror - AI-Powered GitHub Repository Analyzer",
   description:
     "Analyze your GitHub repositories with AI. Get intelligent scores, summaries, and personalized improvement roadmaps for your code.",
-  generator: "v0.app",
+  generator: "Anubhab Rakshit",
   keywords: ["GitHub", "Code Analysis", "AI", "Developer Tools", "Repository Analyzer"],
   authors: [{ name: "Anubhab Rakshit" }],
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
   },
 }
 
