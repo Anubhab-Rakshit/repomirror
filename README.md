@@ -261,11 +261,6 @@ We welcome contributions! Please follow these steps:
 
 ---
 
-## License
-
-MIT License - see LICENSE file for details
-
----
 
 ## Author
 
@@ -273,13 +268,6 @@ Created with focus on developer experience and actionable insights.
 
 ---
 
-## Support
-
-- GitHub Issues: Report bugs and request features
-- Documentation: Full guides at https://repomirror-indol.vercel.app/docs
-- Email: support@repomirror.dev
-
----
 
 ## Acknowledgments
 
