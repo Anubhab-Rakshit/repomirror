@@ -1,0 +1,40 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  {/* Left Mirror Half - Represents Repository */}
+  <defs>
+    <linearGradient id="leftGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#00f0ff" stopOpacity="1" />
+      <stop offset="100%" stopColor="#0099ff" stopOpacity="1" />
+    </linearGradient>
+    <linearGradient id="rightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#b537f2" stopOpacity="1" />
+      <stop offset="100%" stopColor="#ff006e" stopOpacity="1" />
+    </linearGradient>
+    <linearGradient id="centerGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#00f0ff" stopOpacity="0.8" />
+      <stop offset="100%" stopColor="#b537f2" stopOpacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  {/* Left Half - Repository Code */}
+  <rect x="2" y="2" width="13" height="28" rx="2" fill="url(#leftGradient)" opacity="0.2" />
+  <line x1="4" y1="8" x2="12" y2="8" stroke="url(#leftGradient)" strokeWidth="1.5" strokeLinecap="round" />
+  <line x1="4" y1="12" x2="12" y2="12" stroke="url(#leftGradient)" strokeWidth="1.5" strokeLinecap="round" opacity="0.7" />
+  <line x1="4" y1="16" x2="10" y2="16" stroke="url(#leftGradient)" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
+  <line x1="4" y1="20" x2="12" y2="20" stroke="url(#leftGradient)" strokeWidth="1.5" strokeLinecap="round" opacity="0.7" />
+  <line x1="4" y1="24" x2="10" y2="24" stroke="url(#leftGradient)" strokeWidth="1.5" strokeLinecap="round" />
+
+  {/* Right Half - Mirror Reflection */}
+  <rect x="17" y="2" width="13" height="28" rx="2" fill="url(#rightGradient)" opacity="0.2" />
+  <line x1="20" y1="8" x2="28" y2="8" stroke="url(#rightGradient)" strokeWidth="1.5" strokeLinecap="round" />
+  <line x1="20" y1="12" x2="28" y2="12" stroke="url(#rightGradient)" strokeWidth="1.5" strokeLinecap="round" opacity="0.7" />
+  <line x1="22" y1="16" x2="28" y2="16" stroke="url(#rightGradient)" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
+  <line x1="20" y1="20" x2="28" y2="20" stroke="url(#rightGradient)" strokeWidth="1.5" strokeLinecap="round" opacity="0.7" />
+  <line x1="22" y1="24" x2="28" y2="24" stroke="url(#rightGradient)" strokeWidth="1.5" strokeLinecap="round" />
+
+  {/* Center Mirror Line */}
+  <line x1="16" y1="2" x2="16" y2="30" stroke="url(#centerGradient)" strokeWidth="1" opacity="0.6" />
+
+  {/* Shimmer/Reflection Effect */}
+  <circle cx="8" cy="6" r="1.5" fill="url(#leftGradient)" opacity="0.8" />
+  <circle cx="24" cy="6" r="1.5" fill="url(#rightGradient)" opacity="0.8" />
+</svg>
